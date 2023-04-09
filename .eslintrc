@@ -1,0 +1,12 @@
+{
+	"extends": "@remotion",
+	plugins: ['unused-imports'],
+	"rules": {
+		// In Skia, style is either "fill" / "stroke"
+		"react/style-prop-object": "off",
+		"max-len": "off",
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"@typescript-eslint/no-unused-vars": 2,
+		"unused-imports/no-unused-vars": "error"
+	}
+}
